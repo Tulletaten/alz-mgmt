@@ -14,7 +14,7 @@ on:
 
 jobs:
   validate_and_plan:
-    uses: Tulletaten/alz-mgmt-templates/.github/workflows/ci-template.yaml@main
+    uses: Tulletaten/alz-mgmt/.github/workflows/ci-template.yaml@main
     name: 'CI'
     permissions:
       id-token: write
